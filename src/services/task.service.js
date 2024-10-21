@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api/tasks';  // 確保這是正確的 API 地址
+const API_URL = 'https://a539-36-225-221-95.ngrok-free.app';  // 確保這是正確的 API 地址
 
 // 獲取所有任務
 export const getTasks = () => {
